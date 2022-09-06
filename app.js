@@ -80,7 +80,7 @@ btns.forEach((btn, i) => {
     if (tg.MainButton.isVisible) {
       tg.MainButton.hide();
     } else {
-      tg.MainButton.setText(`Вы выбрали товар ${i + 1}!`);
+      tg.MainButton.setText(`Вы выбрали товар ${i + 1}! версия 2`);
       item = `${i + 1}`;
       tg.MainButton.show();
     }
