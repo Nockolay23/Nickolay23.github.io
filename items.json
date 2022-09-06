@@ -1,0 +1,26 @@
+{
+  "1": {
+    "name": "Бургер",
+    "cost": 120,
+    "description": "Бургер с мраморной говядиной в грибном соусе",
+    "image": "img/burger.png"
+  },
+  "2": {
+    "name": "Картофель фри",
+    "cost": 80,
+    "description": "80 грамм картофеля фри",
+    "image": "img/free.png"
+  },
+  "3": {
+    "name": "Салат цезарь",
+    "cost": 190,
+    "description": "200 салата цезарь",
+    "image": "img/salat.png"
+  },
+  "4": {
+    "name": "Наггетсы",
+    "cost": 90,
+    "description": "80 куринных наггетсов",
+    "image": "img/chicken.png"
+  }
+}
