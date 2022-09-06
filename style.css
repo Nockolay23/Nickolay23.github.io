@@ -10,14 +10,22 @@ body {
   max-width: 390px;
 }
 
+.text {
+  max-width: 390px;
+  margin: 0;
+  font-size: inherit;
+  text-align: center;
+}
+
 .inner {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: 300px 300px 300px;
 }
 
 .img {
   width: 150px;
+  height: 150px;
 }
 
 .item {

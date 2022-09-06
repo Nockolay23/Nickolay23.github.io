@@ -12,19 +12,20 @@ function loadItems() {
     var out = "";
     for (var key in data) {
       out += '<div class="item">';
-      // out += "<h3>" + data[key]["name"] + "</h3>";
-      out += "<p>Цена: " + data[key]["cost"] + " руб" + "</p>";
+      out += '<div class="text">';
+      out += "<h3>" + data[key]["name"] + "</h3>";
+      out += "<p>Цена: " + data[key]["cost"] + " руб </p>";
+      out += "</div>";
       out +=
         '<img src="' +
         data[key].image +
         '" alt = "' +
         data[key]["name"] +
         '" class="img">';
-      // <img src="img/burger.png" alt="Burger" class="img" />
-      out += '<button class="btn">Купить</button>';
+      out += '<button class="btn" data-num = "' + key + '">Купить</button>';
       out += "</div>";
     }
-    $("#items").html(out);
+    $("div.inner").html(out);
   });
 }
 let tg = window.Telegram.WebApp;
