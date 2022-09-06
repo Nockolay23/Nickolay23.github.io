@@ -10,7 +10,7 @@ body {
   max-width: 390px;
 }
 
-.items {
+.inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
